@@ -1,8 +1,3 @@
-#include<iostream>
-#include<string>
-#include<vector>
-using namespace std;
-
 string reduce_file_path(string path)
 {
 	vector<string> reducePath;
@@ -15,10 +10,6 @@ string reduce_file_path(string path)
 			path.erase(i, 1);
 		}
 		
-		//if(i == path.length() - 1 && path[i] == '/')
-		//{
-		//	path.erase(i - 1, 1);
-		//}
 		
 		if(path[path.length()-1] == '/')
 		{
