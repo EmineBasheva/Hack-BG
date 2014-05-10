@@ -1,6 +1,5 @@
 vector<int> primes;
 
-
 void prime(int n)
 {
 	bool x;
