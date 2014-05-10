@@ -1,4 +1,0 @@
-Hack-BG
-=======
-
-Hack BG
